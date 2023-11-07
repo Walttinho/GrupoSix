@@ -1,25 +1,25 @@
 1 -  **Configuração do Repositório:**
-   - [ ] Crie um novo repositório no GitHub para hospedar o Wiki.
-   - [ ] Clone o repositório para o seu ambiente de desenvolvimento local.
+   - [x] Crie um novo repositório no GitHub para hospedar o Wiki.
+   - [x] Clone o repositório para o seu ambiente de desenvolvimento local.
 
 2 -  **Estrutura Básica:**
-   - [ ] Configure a estrutura básica do projeto, incluindo a criação de pastas para templates HTML, recursos estáticos (CSS, imagens, etc.), e arquivos de dados.
+   - [x] Configure a estrutura básica do projeto, incluindo a criação de pastas para templates HTML, recursos estáticos (CSS, imagens, etc.), e arquivos de dados.
 
 3 -  **Criação de Postagens:**
-   - [ ] Crie um arquivo JSON para armazenar informações gerais de cada postagem, como título, descrição e autor.
+   - [x] Crie um arquivo JSON para armazenar informações gerais de cada postagem, como título, descrição e autor.
 
 4 -  **Geração de Páginas:**
-   - [ ] Use Python para ler os dados do arquivo Markdown e gerar páginas HTML estáticas para cada postagem do blog.
-   - [ ] Converte o conteúdo Markdown em HTML.
-   - [ ] Use um template HTML para criar o layout das páginas e insira o conteúdo HTML gerado.
+   - [x] Use Python para ler os dados do arquivo Markdown e gerar páginas HTML estáticas para cada postagem do blog.
+   - [x] Converte o conteúdo Markdown em HTML.
+   - [x] Use um template HTML para criar o layout das páginas e insira o conteúdo HTML gerado.
 
 5 -  **Integração do Gitflow:**
    - [ ] Configure um fluxo de trabalho Gitflow, que envolve a criação de branches para desenvolvimento, features e releases.
    - [ ] Realize a criação e fusão de branches conforme necessário para melhor organização e colaboração.
 
 6 -  **Personalização e Estilo:**
-   - [ ] Personalize o estilo do blog usando CSS para criar uma aparência agradável.
-   - [ ] Pode-se escolher um estilo existente ou criar um do zero, dependendo da preferência.
+   - [x] Personalize o estilo do blog usando CSS para criar uma aparência agradável.
+   - [x] Pode-se escolher um estilo existente ou criar um do zero, dependendo da preferência.
 
 7 -  **Teste Local:**
    - [ ] Configure um servidor local para testar o blog.

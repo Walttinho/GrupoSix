@@ -1,0 +1,12 @@
+[
+  {
+    "titulo": "Minha Primeira Postagem",
+    "descricao": "Uma breve introdução ao meu blog",
+    "autor": "Seu Nome"
+  },
+  {
+    "titulo": "Segunda Postagem",
+    "descricao": "Uma postagem de acompanhamento",
+    "autor": "Seu Nome"
+  }
+]

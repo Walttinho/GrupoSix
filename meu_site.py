@@ -6,7 +6,7 @@ import codecs
 
 app = Flask(__name__)
 
-with open('MeuBlog/data/posts.json', 'r') as json_file:
+with open('data/posts.json', 'r') as json_file:
         posts = json.load(json_file)
         index = len(posts)
 
@@ -15,7 +15,7 @@ for i in posts:
           print("Arquivo já existe")
     else:
         nome_arquivo = i["id"] + ".html"
-        filename = f"MeuBlog/templates/{nome_arquivo}"
+        filename = f"templates/{nome_arquivo}"
         f = codecs.open(filename, "w", "utf-8")
         html_template = f"""
         <html>

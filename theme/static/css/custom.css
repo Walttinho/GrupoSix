@@ -1,0 +1,94 @@
+body {
+    margin-bottom: 5em;
+    width: 100%;
+}
+
+h2, h3, h4 {
+    margin-top: 1em;
+}
+
+/* image centering */
+
+.content img {
+    margin: auto;
+    display: block;
+    padding: 1em;
+}
+
+.content iframe {
+    max-width: 90%;
+    margin: auto;
+    display: block;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+.content object {
+    max-width: 90%;
+    margin: auto;
+    display: block;
+    padding: 1em;
+}
+
+/* styling for code and math */
+
+div.codehilitetable {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    margin-top: 1.5em;
+    margin-bottom: 2em;
+}
+
+div.codehilitetable>pre {
+    box-shadow: 0.1em 0.2em 1em -0.2em gray;
+    padding: 1em;
+}
+
+div.MathJax_Display {
+    padding: 1em;
+}
+
+/* resize block quotes */
+
+blockquote.blockquote {
+    font-size: 0.9em;
+    margin: 0 auto;
+    padding: 0 1em;
+    width: 95%;
+    border-left: medium solid gray;
+}
+
+/* table styling */
+
+table.table:not(.blogroll .publications) {
+    width: 90%;
+    margin: 0 auto;
+}
+
+td.badge_cell {
+    text-align: center;
+    vertical-align: middle;
+    max-width: 5em;
+    width: 5em;
+}
+
+td.badge_cell>a.badge {
+    font-size: 1em;
+}
+
+div.table_wrap {
+    margin: 2em auto;
+    overflow: auto;
+    word-wrap: normal;
+}
+
+/* anchor styling */
+
+a.anchor {
+    display: none;
+}
+
+h2:hover a.anchor, h3:hover a.anchor, h4:hover a.anchor {
+    display: initial;
+}

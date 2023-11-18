@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Primeiro post</h1>
+    <h2 id="titulo"></h2>
+    <p id="descricao"></p>
+    <p id="autor"></p>
+    <script>
+        // Carrega o arquivo .json
+        fetch("../data/posts.json")
+          .then((response) => response.json())
+          .then((data) => {
+            // Preenche as informações na página
+            document.getElementById("titulo").innerHTML = data[0]["titulo"]
+            document.getElementById("descricao").innerHTML = data[0]["descricao"]
+            document.getElementById("autor").innerHTML = data[0]["autor"]
+          });
+      </script>
+</body>
+</html>

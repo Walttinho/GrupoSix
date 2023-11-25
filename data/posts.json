@@ -1,8 +1,8 @@
 [
   {
-    "titulo": "Minha Primeira Postagem",
-    "descricao": "Nunca é demais lembrar o peso e o significado destes problemas, uma vez que a revolução dos costumes não pode mais se dissociar das regras de conduta normativas.",
-    "autor": "Joao Rodrigues Ferreira"
+    "titulo": "Passo a passo do projeto",
+    "descricao": "Primeiramente, criamos o repositório. Depois estruturamos as pastas dividindo o json, as paginas estaticas e o css. Para conseguir puxar o json foi utilizado e fetch. Para realizar o deploy automatico no github pages foi criado um yaml.",
+    "autor": "Grupo seis"
   },
   {
     "titulo": "Minha Segunda Postagem",

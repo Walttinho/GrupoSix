@@ -1,36 +1,25 @@
+*Os passos que foram realizados nesse projeto:*
+
 1 -  **Configuração do Repositório:**
-   - [x] Crie um novo repositório no GitHub para hospedar o Wiki.
-   - [x] Clone o repositório para o seu ambiente de desenvolvimento local.
+   - Criado um novo repositório no GitHub e clonado para ambiente local.
 
 2 -  **Estrutura Básica:**
-   - [x] Configure a estrutura básica do projeto, incluindo a criação de pastas para templates HTML, recursos estáticos (CSS, imagens, etc.), e arquivos de dados.
+   - Configurado a estrutura básica do projeto, incluindo a criação de pastas para páginas HTML, recurso estático css e arquivo json.
 
 3 -  **Criação de Postagens:**
-   - [x] Crie um arquivo JSON para armazenar informações gerais de cada postagem, como título, descrição e autor.
+   - Crie um arquivo JSON para armazenar informações gerais de cada postagem, como título, descrição e autor.
 
 4 -  **Geração de Páginas:**
-   - [x] Use Python para ler os dados do arquivo Markdown e gerar páginas HTML estáticas para cada postagem do blog.
-   - [x] Converte o conteúdo Markdown em HTML.
-   - [x] Use um template HTML para criar o layout das páginas e insira o conteúdo HTML gerado.
+   - Foi utilizado uma página html com links para cada postagem contada no json.
 
 5 -  **Integração do Gitflow:**
-   - [ ] Configure um fluxo de trabalho Gitflow, que envolve a criação de branches para desenvolvimento, features e releases.
-   - [ ] Realize a criação e fusão de branches conforme necessário para melhor organização e colaboração.
+   - Para o Gitflow, envolveu a criação de branches para desenvolvimento e features.
 
 6 -  **Personalização e Estilo:**
-   - [x] Personalize o estilo do blog usando CSS para criar uma aparência agradável.
-   - [x] Pode-se escolher um estilo existente ou criar um do zero, dependendo da preferência.
+   - Para personalização foi utilizado css.
 
 7 -  **Teste Local:**
-   - [ ] Configure um servidor local para testar o blog.
-   - [ ] Verifique se as postagens são geradas corretamente e se o estilo está de acordo com o esperado.
+   - Para teste local foi utilizado o live server.
 
 8 -  **Publicação no GitHub Pages:**
-   - [ ] Faça o push do projeto para o repositório no GitHub.
-   - [ ] Habilite o GitHub Pages nas configurações do repositório para publicar o blog online.
-
-9 -  **Documentação do Procedimento:**
-   - [ ] O primeiro post no Wiki/blog deve ser uma documentação que explica como o projeto foi planejado e executado, incluindo as etapas seguidas e os desafios enfrentados.
-
-10 -  **Automatização do Processo (Opcional):**
-    - [ ] Implemente automações usando scripts Python para atualizar automaticamente o blog quando novas postagens forem adicionadas, se desejado. Isso pode incluir a geração automática de páginas HTML a partir de novos dados Markdown, por exemplo.
+   - Para publicação no github pages, foi acrescentado um arquivo yaml que após o push da main, já atualiza o pages.

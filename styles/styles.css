@@ -1,4 +1,21 @@
-h1 {
+* {
+  background-color: rgb(54, 53, 53);
+  text-align: center;
+}
+h1, h2 {
+  color: #c24cb0;
+}
+p {
+  color: white;
   font-size: 24px;
-  color: #333;
+}
+
+a {
+  color: rgb(160, 87, 227);
+  font-size: 24px;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
 }
